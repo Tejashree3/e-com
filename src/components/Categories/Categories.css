@@ -1,0 +1,90 @@
+:root{
+    --bs-font-sans-serif: system-ui-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --primary: #b3a1fc;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #f69abd;
+    --darkblue: #7adcf5;
+    --black: #000000;
+    --white: #fafdaa;
+    --orange:#fbb8a5;
+    --green:rgb(175, 247, 175);
+  }
+
+#image-5{
+    padding: 60px 0px 60px 0px;
+}
+h2.text-left {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.circle-img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle-img img {
+    width: 100%;
+    border-radius: 90px;
+    height: auto;
+    align-items: center;
+}
+.with-background-1,
+.with-background-2,
+.with-background-3,
+.with-background-4,
+.with-background-5 {
+
+padding: 20px; 
+}
+
+.with-background-1{
+background-color: var(--green); 
+}
+.with-background-2{
+background-color: var(--github); 
+}
+.with-background-3{
+background-color: var(--primary); 
+}
+.with-background-4{
+background-color: var(--white); 
+}
+.with-background-5{
+background-color: var(--orange); 
+}
+.align-items-center{
+justify-content: center;
+gap: 20px;
+}
+
+.circle-img {
+position: relative;
+}
+
+.circle-img img {
+transition: opacity 0.3s ease; 
+}
+
+.circle-img h4 {
+opacity: 0; 
+transition: opacity 0.3s ease; 
+position: absolute;
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%); 
+background-color: rgba(255, 255, 255, 0.5); 
+padding: 10px 20px; 
+border-radius: 10px; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.circle-img:hover h4 {
+opacity: 1; 
+}
+
+.circle-img:hover img {
+opacity: 0.5; 
+}

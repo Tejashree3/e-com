@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap');
+:root{
+    --bs-font-sans-serif: system-ui-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --primary: #b3a1fc;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #f69abd;
+    --darkblue: #a4a7f9;
+    --black: #000000;
+    --white: #fafdaa;
+    --orange:#fbb8a5;
+    --green:rgb(175, 247, 175);
+  }
+
+#product{
+    padding: 20px 0px 30px 0px;
+}
+#product .card{
+           
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0,0.02);
+margin: 15px 0;
+transition:0.5 ease ;  
+position: relative;
+}
+#product .card:hover{
+    background-color: var(--darkblue) !important;
+}
+#product .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0.06, 0.06, 0.06,0.06);
+    background-color: #dee2e6;
+}
+#product .pro img{
+width: 100%;
+border-radius: 20px;
+}
+#product .pro .heart{
+    color: white;
+    position: absolute;
+left: 80%;
+top: 5%;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    background-color: #adb5bd;
+    border-radius: 50px;
+    transition: 0.6s ease;
+    padding-left: 12px;
+}
+#product .pro .heart:hover{
+    color: red;
+}
+.card.produc {
+    max-width: 400px;
+    width: 100%;
+}
+.head-tag {
+display: flex;
+justify-content: space-between;
+padding-bottom: 0.4rem;
+}
+#product .pro .des{
+text-align: left;
+padding: 10px;
+}
+#product .pro .des p{
+color: grey;
+}
+#product .pro .star i{
+padding-bottom: 1.5rem !important;
+font-size: 13px;
+color: rgba(228,170,24);
+}
+button.product-btn {
+    padding: 8px 20px 8px 20px;
+    background: rgba(255, 192, 203, 0);
+    color: white;
+    font-size: 18px;
+    border: 2px solid var(--github);
+    transition: 0.7s ease;
+    margin-top: 10px !important;
+   
+}
+button.product-btn:hover{
+    background-color: white;
+    color: var(--github);
+}
+h2.text-left {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width:576px) {
+    .col-md-3.col-sm-6.col-12.mb-4 {
+        justify-content: center;
+        display: flex;
+    }
+}

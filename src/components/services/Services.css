@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+:root{
+    --bs-font-sans-serif: system-ui-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --primary: #9acdef;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #f69abd;
+    --darkblue: #a4a7f9;
+    --black: #000000;
+    --white: #fafdaa;
+    --orange:#fbb8a5;
+    --green:rgb(175, 247, 175);
+  }
+  #services{
+    padding: 60px 0px 60px 0px;
+  }
+  h2.text-left {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.card {
+  
+  border: 4px solid rgb(234, 228, 228);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .card-text ,
+  .card-title{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .section-title{
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+    background-color: var(--primary) !important;
+    transition:   background-color 0.3s ease-in-out;
+
+  }
+  .card:hover .card-title{
+  color: #ffffff !important;
+  transition: color 0.6s ease-in-out;
+  }
+  .img-top {
+    width: 60px;
+    padding: 12px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    overflow: hidden;
+    transition: border-radius 0.7s ease-in-out;
+}
+
+.card:hover .img-top {
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: var(--white);
+}

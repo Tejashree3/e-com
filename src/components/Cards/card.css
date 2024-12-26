@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap');
+:root {
+    --bs-font-sans-serif: system-ui-apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --yellow: #f8f5b3;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+ --green:var(--green)
+    --darkblue: #1c1e53;
+    --black: #000000;
+    --white: #ffffff;
+    --orange: rgb(112, 240, 178);
+}
+
+#three-card{
+    background-color: var(--white);
+    padding: 40px 0px 40px 0px;
+}
+.icon-text-title {
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+}
+.icon-text-1.col-4 ,
+.icon-text-2.col-4,
+.icon-text-3.col-4{
+    
+    padding: 60px 35px 67px 35px;
+    border-radius: 10px;
+}
+.icon-text-1.col-4{
+    background: pink;
+}
+.icon-text-2.col-4{
+    background: rgb(166, 243, 249);
+}
+.icon-text-3.col-4{
+    background: rgb(221, 151, 228);
+}
+svg.svg-inline--fa.fa-chart-line {
+    width: 20px;
+    height: 20px;
+}
+.icon-para-text {
+    font-size: 18px;
+    margin-top: 8px;
+}
+.icon-title {
+    margin-top: 15px;
+    font-size: 39px;
+    line-height: 40px;
+}
+
+
+
+i.fas.fa-ChartLine.ChartLine {
+    background: #ffffff80;
+    padding: 15px;
+    border-radius: 100px;
+    /* max-width: 118px; */
+}
+
+@media only screen and (max-width:767px) {
+    .icon-text-title {
+        display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .icon-text-2 ,.icon-text-1{
+        width: 49%;
+        max-width: 500px;
+    }
+    .icon-text-3{
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+@media only screen and (max-width:522px) {
+    .icon-text-2 ,.icon-text-1{
+        width: 100%;
+      
+    }
+}

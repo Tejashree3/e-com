@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+:root{
+    --bs-font-sans-serif: system-ui-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --primary: #9acdef;
+    --heading-color: #282938;
+    --bg-shade: #ff74d5;
+    --github: #f69abd;
+    --darkblue: #a4a7f9;
+    --black: #000000;
+    --white: #fafdaa;
+    --orange:#fbb8a5;
+    --green:rgb(177, 254, 170);
+  }
+  #features-collection{
+    padding: 60px 0 60px 0;
+  }
+.features-collection-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#features-collection .features-collection-box {
+    max-width: 170px;
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid var(--github);
+    border-radius: 50px;
+    margin: 15px 10px;
+    transition: 0.6s;
+}
+#features-collection .features-collection-box img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+#features-collection .features-collection-box:hover{
+    box-shadow: 10px 10px 54px rgba(77, 77, 77, 0.5);
+    border: 3px solid var(--github);
+}
+#features-collection .features-collection-box h6{
+    display: inline-block;
+    padding: 9px 8px 9px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: var(--github);
+    background-color: #ebf0ab;
+}
+
+
+#features-collection .features-collection-box:nth-child(1) h6{
+    background-color: var(--darkblue);
+}
+#features-collection .features-collection-box:nth-child(2) h6{
+    background-color: var(--orange);
+}
+
+#features-collection .features-collection-box:nth-child(3) h6{
+    background-color: var(--white);
+}
+#features-collection .features-collection-box:nth-child(4) h6{
+    background-color: var(--primary);
+}
+#features-collection .features-collection-box:nth-child(5) h6{
+    background-color: var(--green);
+}
+#features-collection .features-collection-box:nth-child(6) h6{
+    background-color: var(--bg-shade);
+}

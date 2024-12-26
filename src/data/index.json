@@ -1,0 +1,48 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "src": "https://th.bing.com/th/id/OIP.l3aGJEiLATVT4zAXATLrogHaHK?rs=1&pid=ImgDetMain",
+      "title": "Men's Clothing",
+      "description": "Explore our wide range of men's clothing, from casual wear to formal attire.",
+      "icon": "Clothing"
+    },
+    {
+      "id": "2",
+      "src": "https://th.bing.com/th/id/OIP.l3aGJEiLATVT4zAXATLrogHaHK?rs=1&pid=ImgDetMain",
+      "title": "Shopping Bags",
+      "description": "Get stylish shopping bags to carry your items in style.",
+      "icon": "ShoppingBag"
+    },
+    {
+      "id": "3",
+      "src": "https://th.bing.com/th/id/OIP.l3aGJEiLATVT4zAXATLrogHaHK?rs=1&pid=ImgDetMain",
+      "title": "Footwear",
+      "description": "Find the perfect pair of shoes to match your style.",
+      "icon": "Footwear"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Hats",
+      "description": "Discover a variety of hats to complement your outfit.",
+      "icon": "Hats"
+    },
+
+    {
+      "id": "6",
+      "src": "./img/feather-pen-1.png",
+      "title": "Shopping Cart",
+      "description": "Your one-stop shop for all your fashion needs. Add items to your cart and shop with ease.",
+      "icon": "ShoppingCart"
+    },
+   
+    {
+      "id": "7",
+      "src": "./img/feather-pen-1.png",
+      "title": "Gifts",
+      "description": "Find the perfect gifts for your loved ones. Explore our gift collection.",
+      "icon": "Gifts"
+    }
+  ]
+}

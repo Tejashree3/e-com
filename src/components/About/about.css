@@ -1,0 +1,65 @@
+:root{
+    --bs-font-sans-serif: system-ui-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --primary: #b3a1fc;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #f69abd;
+    --darkblue: #a4a7f9;
+    --black: #000000;
+    --white: #fafdaa;
+    --orange:#fbb8a5;
+    --green:rgb(175, 247, 175);
+  }
+
+
+
+#banner-2 {
+    background-image: url(../../asset/Woman-Shopping-Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    min-height: 400px;
+}
+h2.banner-2-heading {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 75px;
+    }
+    .banner-2-p{
+        font-size: 17px;
+        color: grey;
+        line-height: 24px;
+        margin: 14px 0;
+    }
+.row.home.banner-2 {
+    display: flex;
+    justify-content: end;
+   
+}
+.col-lg-7.col-md-6 {
+    margin-top: 70px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .col-lg-7.col-md-6.banner-home-2 {
+        margin-top: 60px;
+        margin-bottom: 19px;
+    }
+    h2.banner-2-heading {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .col-lg-7.col-md-6.banner-home-2 {
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+    h2.banner-2-heading {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+}

@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+:root{
+    --bs-font-sans-serif: system-ui-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --primary: #9acdef;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #f69abd;
+    --darkblue: #a4a7f9;
+    --black: #000000;
+    --white: #fafdaa;
+    --orange:#fbb8a5;
+    --green:rgb(175, 247, 175);
+  }
+  #watch{
+    padding: 60px 0 60px 0;
+  }
+
+  .watches{
+    width: 100%;
+    max-width: 440px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid white;
+    position: relative;
+}
+
+.watch-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:15px ;
+}
+.watch-body{
+    width: 100%;
+    height: 100%;
+top: 0;
+right: -100%;
+position:absolute;
+background:#1f3d4738 ;
+backdrop-filter: blur(5px);
+border-radius: 15px;
+color: white;
+padding: 30px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+transition: 2s;
+
+}
+.watches:hover .watch-body{
+    right: 0;
+}
+.watch-title{
+    text-transform: capitalize;
+    font-size:50px;
+    font-weight: 500;
+}
+.watch-para{
+    font-size:18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: black;
+    margin: 40px 0;
+}
+button.watch-btn {
+    padding: 12px 28px 12px 28px;
+    background: rgba(255, 192, 203, 0);
+    color: white;
+    font-size: 18px;
+    border: 2px solid var(--github);
+    transition: 0.7s ease;
+    border-radius: 50px;
+}
+button.watch-btn:hover{
+    background-color: white;
+    color: var(--github);
+}
+@media only screen and (max-width:767px) {
+    .row.home.watch-3 {
+    display: flex;
+    justify-content: center;
+}
+}
+@media only screen and (max-width:992px) {
+    .row.home.watch-3 {
+    display: flex;
+    justify-content: center;
+    }
+}

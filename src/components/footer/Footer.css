@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+:root{
+    --bs-font-sans-serif: system-ui-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --primary: #9acdef;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #f69abd;
+    --darkblue: #a4a7f9;
+    --black: #000000;
+    --white: #fafdaa;
+    --orange:#fbb8a5;
+    --green:rgb(175, 247, 175);
+  }
+  .footer {
+    position: relative;
+    z-index: 1; /* Higher z-index compared to .section-home */
+    bottom: 0;
+    margin-top: 20px;
+  }
+  
+.footer-col img{
+      width: 17rem;
+     padding-top: 20px;
+   }
+   .footer-col h4 {
+    font-family: 'Titillium Web', sans-serif;
+   }
+   .col-md-3.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+svg.svg-inline--fa.fa-shirt.fa-2x {
+  max-width: 60px;
+  width: 100%;
+  color: white !important;
+  height: 60px;
+}
+svg.svg-inline--fa.fa-shirt.fa-2x:hover{
+  color: var(--github);
+}
+.footer-col h3:hover{
+  color: var(--github);
+}
+
+   .footer-col h3 {
+      font-size: 22px;
+      color: white;
+      font-weight: bold;
+      text-transform: capitalize;
+    margin-top: 0;
+      font-weight: 500;
+      position: relative;
+      font-family: 'Titillium Web', sans-serif;
+    }
+   
+   .footer-col h3::before {
+   
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: var(--github);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+   }
+   
+   .footer-col ul li:not(:last-child) {
+    margin-bottom:8px;
+   }
+   .footer-col ul li{
+      color: white;
+   }
+   
+   .footer-col ul li a
+ {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+   
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+   }
+   
+   .footer-col ul li a:hover {
+    color: var(--github);
+    padding-left: 8px;
+   }
+   
+   .footer-col .social-links a {
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 11px 11px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+   }
+   .col-md-3.footer-col h4 {
+    border-bottom: 1px solid white; /* Adjust the color and style as needed */
+    padding-bottom: 10px; /* Adjust the padding as needed */
+    margin-bottom: 15px; /* Adjust the margin as needed */
+}
+  
+   .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: var(--github);
+   }
+   
+   .row-1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-family: 'Titillium Web', sans-serif;
+      
+    }
+    .row-1 h4{
+      color: var(--white);
+    }
+    .row-1 .col .justify-content-center {
+      margin-bottom: 10px;
+      margin-top: 17px;
+  }
+.side-icon{
+  color:white;
+}
+.side-icon:hover{
+  color: var(--github);
+}
+    
+   /* Responsive */
+   @media (max-width: 767px) {
+    .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+   }
+   
+   @media (max-width: 574px) {
+    .footer-col {
+      width: 100%;
+    }
+   }
+   

@@ -1,0 +1,69 @@
+#banner{
+    background-image: url(../../asset/73.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white; /* Added text color for better visibility */
+    min-height: 400px; /* Set a minimum height for the banner */
+}
+.banner-home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.banner-p{
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 14px 0;
+}
+button.banner-btn {
+    padding: 12px 28px 12px 28px;
+    background: rgba(255, 192, 203, 0);
+    color: white;
+    font-size: 18px;
+    border: 2px solid var(--github);
+    transition: 0.7s ease;
+    border-radius: 50px;
+}
+button.banner-btn:hover{
+    background-color: white;
+    color: var(--github);
+}
+.banner-btn{
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.banner-heading span{
+    color: var(--github);
+}
+.img-home{
+    max-width: 100%;
+}
+/* Adjusting for smaller screens */
+@media (max-width: 991px) {
+    .banner-heading {
+font-size: 45px;
+font-weight: 700;
+line-height: 50px;
+}
+
+}
+@media (max-width: 768px) {
+    #banner {
+        height: auto;
+    }
+    .banner-heading {
+font-size: 33px;
+font-weight: 700;
+line-height: 35px;
+}
+}
